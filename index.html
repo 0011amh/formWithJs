@@ -11,9 +11,41 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">1</div>
-            <div class="col-lg-4">2</div>
-            <div class="col-lg-4">3</div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+
+                    <br/><br/>
+                    <form name="register_form" id="register_form" action="" method="POST" onsubmit="return register()">
+                    <label for="fullname" class="form-label">Full name</label>
+                    <input type="text"  
+                    required
+                    placeholder="Full Name"
+                    maxlength="10"
+                    name="fullname" 
+                    id="fullname" 
+                    class="form-control" />
+
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email"  
+                    required
+                    placeholder="Email"
+                    name="email" 
+                    id="email" 
+                    class="form-control" />
+
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password"  
+                    required
+                    placeholder="password"
+                    name="password" 
+                    id="password" 
+                    class="form-control" />
+                    </br>
+                    <input type="submit" form="register_form" value="Register" class="btn btn-info"/>
+                    </form>
+
+            </div>
+            <div class="col-lg-4"></div>
         </div>
     </div>
 
