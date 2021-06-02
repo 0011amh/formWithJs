@@ -18,16 +18,16 @@
                     <form name="register_form" id="register_form" action="" method="POST" onsubmit="return register()">
                     <label for="fullname" class="form-label">Full name</label>
                     <input type="text"  
-                    required
+                    
                     placeholder="Full Name"
                     maxlength="10"
                     name="fullname" 
                     id="fullname" 
                     class="form-control" />
-
+                        <div id="fullname_alert" style="color: red;"></div>
                     <label for="email" class="form-label">Email</label>
                     <input type="email"  
-                    required
+                    
                     placeholder="Email"
                     name="email" 
                     id="email" 
@@ -35,7 +35,7 @@
 
                     <label for="password" class="form-label">Password</label>
                     <input type="password"  
-                    required
+                    
                     placeholder="password"
                     name="password" 
                     id="password" 
